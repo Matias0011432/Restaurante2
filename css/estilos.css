@@ -275,7 +275,7 @@ video{
     }
 }
 .texto-nosotros h1{
-    font-size: 7rem;
+    font-size: 15rem;
     text-align: center;
 }
 @media(min-width: 768px) {
