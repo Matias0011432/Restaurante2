@@ -275,7 +275,7 @@ video{
     }
 }
 .texto-nosotros h1{
-    font-size: 15rem;
+    font-size: 5rem;
     text-align: center;
 }
 @media(min-width: 768px) {
@@ -284,7 +284,7 @@ video{
     }
 }
 .texto-nosotros p{
-    font-size: 7rem;
+    font-size: 2rem;
     text-align: center;
 }
 @media(min-width: 768px) {
@@ -431,7 +431,7 @@ video{
 }
 .texto-chef h3{
     font-size: 3rem;
-
+    font-family: "Edu+NSW+ACT+Cursive", sans-serif
 }
 .texto-chef p{
     font-size: 2rem;
