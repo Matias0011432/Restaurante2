@@ -460,7 +460,7 @@ video{
 
 /*seccion del chef*/
 .chef h2{
-    background-color: var(--rojo);
+    background-color: var(--negro);
     display: inline-block;
     padding: 1rem 3rem;
     color: var(--negro);
