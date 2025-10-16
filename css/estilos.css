@@ -6,6 +6,36 @@
     --titulos:"Bebas Neue", sans-serif;
     --parrafos:'inter', sans-serif;
 }
+/* Whatsapp */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    70% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    animation: pulse 2s infinite;
+} 
+.whatsapp i{
+    margin-top: 15px;
+}
 html{
     box-sizing: border-box;
     /*1rem = 10px*/
