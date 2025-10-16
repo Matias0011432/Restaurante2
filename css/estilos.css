@@ -1,7 +1,7 @@
 :root{
-    --azul:hsl(244, 100%, 32%);
+    --rojo:#ff660082;
     --blanco:#fff;
-    --verde:#ff6700;
+    --naranja:#ff6700;
     --oscuro: #000;
     --titulos:"Bebas Neue", sans-serif;
     --parrafos:'inter', sans-serif;
@@ -76,7 +76,7 @@ img{
     max-width: 100%;
 }
 .verde{
-    color: var(--verde);
+    color: var(--naranja);
 }
 .rojo{
     color: var(--rojo);
@@ -143,7 +143,7 @@ img{
 }
 
 .bordes:hover{
-    color: var(--verde);
+    color: var(--naranja);
     background-color: var(--blanco);
 }
 .btn-rojo{
@@ -154,7 +154,7 @@ img{
     margin-bottom: 2rem;
 }
 .btn-verde{
-    background-color: var(--verde);
+    background-color: var(--naranja);
     border: none;
     display: inline-block;
     margin-bottom: 2rem;
@@ -216,10 +216,10 @@ img{
 
 
 .navegacion a:nth-child(even):hover{
-    color: var(--verde);
+    color: var(--naranja);
 }
 .navegacion a:nth-child(odd):hover{
-    color: var(--verde);
+    color: var(--naranja);
 }
 .navegacion a:first-of-type{
     margin-top: 5rem;
@@ -306,7 +306,7 @@ video{
 }
 .texto-nosotros .bienvenida{
     font-size: 4rem;
-    color: var(--verde);
+    color: var(--naranja);
     text-align: center;
 }
 @media(min-width: 768px) {
@@ -402,9 +402,15 @@ video{
     padding:1rem;
     border-radius: 5px;
     border: none;
-    background-color: var(--rojo);
+    background-color: var(--naranja);
     color: var(--blanco);
     height: 3.8rem;
+    font-family: var(--parrafos);
+}
+
+.precio button:hover{
+    background-color: var(--rojo);
+    cursor: pointer;
 }
 .separador{
     background-image: url('../assets/img/ensalada.webp');
