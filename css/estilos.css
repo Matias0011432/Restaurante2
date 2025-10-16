@@ -428,11 +428,11 @@ video{
 }
 .texto-chef, .imagen-chef{
     flex: 0 0 calc(50% - 1rem);
+    font-family:Bebas Neue, sans-serif;
 }
 .texto-chef h3{
     font-size: 3rem;
-    font-family: Bebas Neue, sans-serif;
-    
+
 }
 .texto-chef p{
     font-size: 2rem;
